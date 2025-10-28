@@ -1,9 +1,9 @@
-{\rtf1\ansi\ansicpg1252\deff0\nouicompat{\fonttbl{\f0\fnil\fcharset0 Cascadia Mono;}{\f1\fnil\fcharset2 Symbol;}}
-{\colortbl ;\red255\green0\blue0;\red192\green80\blue77;}
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat{\fonttbl{\f0\fnil\fcharset0 Cascadia Code;}{\f1\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red255\green0\blue0;}
 {\*\generator Riched20 10.0.19041}\viewkind4\uc1 
-\pard\sa200\sl276\slmult1\cf1\b\f0\fs24\lang9 Lecture - ( Vectors in C++ )\cf0\b0\par
+\pard\sa200\sl276\slmult1\cf1\f0\fs28\lang9 Lecture - ( Vectors in C++ )\par
 
-\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 Vectors look same like as an array\par
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\cf0 Vectors look same like as an array\par
 {\pntext\f1\'B7\tab} They are dynamic in nature mean size is not fixed\par
 {\pntext\f1\'B7\tab} STL is Standard Template Library in which some code of these datastructures is already implemented. Like :- stack , queue etc \par
 {\pntext\f1\'B7\tab} From this library we pick these already implemented datastructure as a tool and then we use that in our code.\par
@@ -14,10 +14,10 @@
 \pard\sa200\sl276\slmult1\tab for(auto v : vec) then print v\par
 This will work as a foreach loop for a vector , Here above v will stored values not a index like for loop \par
 \par
-\b Vectors Functions :- \b0 These we use to perform some kind of operations\par
+Vectors Functions :- These we use to perform some kind of operations\par
 size , push_back , pop_back , front , back , at\par
 \par
-\b Static ( Compile Time ) Vs Dynamic Allocation :-\b0\par
+Static ( Compile Time ) Vs Dynamic Allocation :-\par
 
 \pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 Basically in this we see how vectors are implemented in a memory\par
 {\pntext\f1\'B7\tab}Static memory allocate at compile time like ( int arr[5] = \{\} ; )\par
@@ -33,9 +33,9 @@ Vector contains two property one is size & another one is capacity\par
 XOR :- ( 0^0 :- 0 , 1^1 :- 0  , 0^1 :- 1 , 1^0 :- 1 )\par
 BruteForce Approach :- Means a solution which is not optimised\par
 \par
-\cf1\b Lecture - ( Kadane's Algorithm ) \par
+\cf1 Lecture - ( Kadane's Algorithm ) \cf0\par
 
-\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\cf0\b0 Kadane's algorithm work on to calculate sum of two numbers\par
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 Kadane's algorithm work on to calculate sum of two numbers\par
 
 \pard\li720\sa200\sl276\slmult1 ( Small Positive ) + ( Big Positive ) :- Big Positive Number\par
 ( Small Negative ) + ( Big Positive ) :- Big Positive Number\par
@@ -45,28 +45,28 @@ BruteForce Approach :- Means a solution which is not optimised\par
 {\pntext\f1\'B7\tab}Although it's a type of dynamic programming algorithm ( which means we convert big size problem into small size problem )\par
 {\pntext\f1\'B7\tab}Like first we solve small size problem and then with help of that we solve big size problem\par
 
-\pard\sa200\sl276\slmult1\cf1\b\par
+\pard\sa200\sl276\slmult1\cf1\par
 Lecture :- ( Moore's Voting Algorithm )\par
 
-\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\cf0\b0 According to moore's voting algorithm if we start tracking frequency from starting then at the end there will be maximum frequency of majority element only\par
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\cf0 According to moore's voting algorithm if we start tracking frequency from starting then at the end there will be maximum frequency of majority element only\par
 {\pntext\f1\'B7\tab}If we get same element then increase frequency otherwise decrease it , after decreasing frequency too there will maximum frequency of majority element only \par
 
 \pard\sa200\sl276\slmult1\par
-\cf1\b Lecture :- ( Time & Space Complexity )\par
+\cf1 Lecture :- ( Time & Space Complexity )\cf0\par
 
-\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\cf0\b0 Time complexity does not means the actual time taken , but it means the amount of time taken as a function of input size n .\par
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 Time complexity does not means the actual time taken , but it means the amount of time taken as a function of input size n .\par
 {\pntext\f1\'B7\tab}Amount of time taken means :- no of operations\par
 {\pntext\f1\'B7\tab}So in actual TC means the no of operations as a function of input size n that's Time Complexity .\line\line Means as size of n increase , so at that time how many no of operations are getting perform .\par
 {\pntext\f1\'B7\tab}Basically TC tells the behviour how our algorithm is going to perform\par
 
 \pard\sa200\sl276\slmult1      O(n) :- Linear Time Complexity\par
 
-\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 We always try to calculate TC in worst case scenario , because if our algo performs great then automatically it works on small input\cf2\b\par
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 We always try to calculate TC in worst case scenario , because if our algo performs great then automatically it works on small input\par
 
 \pard\sa200\sl276\slmult1\par
 Big O Notation :- \par
 
-\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\cf0\b0 It's a kind of symbol\par
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 It's a kind of symbol\par
 {\pntext\f1\'B7\tab}It's shows a function of TC , not just a normal function .\par
 {\pntext\f1\'B7\tab}It give complexity of worst case scenario and also known as upper bound\par
 {\pntext\f1\'B7\tab}Let suppose TC is O(n) which means in worst case scenario means isse jyada bura case ho hi nahin sakta \par
@@ -83,7 +83,7 @@ Big O Notation :- \par
 {\pntext\f1\'B7\tab}Theta :- Average Case\par
 
 \pard\sa200\sl276\slmult1\par
-\cf2\b Space Complexity :- \cf0\b0 Not an actual space but It's amount of space taken by an algorithm as a function of input size n .\par
+Space Complexity :- Not an actual space but It's amount of space taken by an algorithm as a function of input size n .\par
 
 \pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 Our code contains two type of spaces Actual input & Auxilary Space ( Extra Space )\par
 {\pntext\f1\'B7\tab}To calculate SC , we only count extra space not actual space\par
@@ -34127,8 +34127,8 @@ fffffefffffefffffefffffefffffefffffefffffefffffefffffefffffeff0000030000000000
 \pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl240\slmult1 When size is getting half again and again , then TC will be O(logn)\par
 
 \pard\sa200\sl240\slmult1\par
-\cf2\b TC Of Recursion :-\par
-\cf0\b0 We calculate TC of recursion using two ways :-\par
+TC Of Recursion :-\par
+We calculate TC of recursion using two ways :-\par
 1. Recurrence Relation ( equation )\par
 2. Total no of recursion calls * work done in each calls\par
 
@@ -34137,7 +34137,7 @@ fffffefffffefffffefffffefffffefffffefffffefffffefffffefffffeff0000030000000000
 {\pntext\f1\'B7\tab}Basically during calls it stores data in stack frames which are called call stack , so that's also count under SC\par
 
 \pard\sa200\sl240\slmult1 SC = Height of each calls * memory occupy in each calls\par
-\cf1\par
+\par
 {\pict{\*\picprop}\wmetafile8\picw20399\pich14684\picwgoal11565\pichgoal8325 
 010009000003bace09000000a4ce09000000050000000b0200000000050000000c025c39af4fa4
 ce0900430f2000cc0000002b020303000000005c39af4f0000000028000000030300002b020000
@@ -67102,28 +67102,36 @@ a43a4c5c171e261c191b1c191b1c191b1c191b1c191b1c191b1c191b1c191b1c191b1c191b1c19
 22232022232022232022232022232022232022232022232022222022222022221f22221f21221f
 21221f21000000030000000000
 }\par
-\cf0 Let suppose given constraint \par
+Let suppose given constraint \par
 n <=10^5\par
 O(n^2) will work or not\par
 (10^5)^2 :- 10^10 which is greater than 10 ^ 8 which will give TLE\par
-\cf1 Note :- On Coding platforms in 1 second 10^8 operations were perform which is max , and if our no of operations is getting more than this , then it will give TLE error\par
-\cf0\par
-\cf1\b Lecture - ( Buy & Sell Stock Problem ) \par
-\cf0\b0\par
-\cf2\b Compute x^n :- using Binary Exponentiation\par
+Note :- On Coding platforms in 1 second 10^8 operations were perform which is max , and if our no of operations is getting more than this , then it will give TLE error\par
+\par
+\cf1 Lecture - ( Buy & Sell Stock Problem ) \cf0\par
+\par
+Compute x^n :- using Binary Exponentiation\par
 
-\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl240\slmult1\cf0\b0 Basically here we find binary no of given power and then we solved it\par
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl240\slmult1 Basically here we find binary no of given power and then we solved it\par
 {\pntext\f1\'B7\tab}If a n is decimal number then its binary form have ( logn base2 + 1 ) digits hote hai\par
-{\pntext\f1\'B7\tab}Binary Exponentitaion mei hum apni power ke jo binary form hai uske count pei loop lagate hai\b\par
-{\pntext\f1\'B7\tab}\b0 Instead of running loop n time , we have run loop by logn base2 times\b\par
+{\pntext\f1\'B7\tab}Binary Exponentitaion mei hum apni power ke jo binary form hai uske count pei loop lagate hai\par
+{\pntext\f1\'B7\tab}Instead of running loop n time , we have run loop by logn base2 times\par
 
-\pard\sa200\sl240\slmult1\b0\par
-\par
+\pard\sa200\sl240\slmult1\par
+Lecture - ( Binary Search - Iterative & Recursive Method )\par
 \par
 
-\pard\sa200\sl276\slmult1\par
-\par
-\par
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl240\slmult1 Real life implementation of binary search in searching a word in a dictionary\par
+{\pntext\f1\'B7\tab}It can only apply on sorted elements\par
+{\pntext\f1\'B7\tab}These sorted elements follows monotonic function which means whether they are in increasing order or decreasing order.\par
+
+\pard\sa200\sl240\slmult1 Binary Search Process :-\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl240\slmult1 First Find a mid\par
+{\pntext\f1\'B7\tab}Then on basis of middle value decide whether we need to go in left or right\par
+
+\pard\sa200\sl276\slmult1 Note :- When we calculate mid , at that time there may be chance that ( start will also be Int_Max & End will also due to which overflow will also possible over there ) , so for that we do this\par
+int mid = st + (end - st)/2;\par
 \par
 \par
 \par
